@@ -9,6 +9,6 @@ public class SearchTests {
     void successfulSearchTest() {
         open("https://github.com/search");
         $("[aria-label='Search GitHub']").setValue("qa.guru").pressEnter();
-        $("[data-testid='results-list']").shouldHave(text("QA.Hello"));
+        $("[data-testid='results-list']").shouldHave(text("QA.H121ello"));
     }
 }
